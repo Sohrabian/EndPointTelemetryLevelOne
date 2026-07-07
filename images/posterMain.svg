@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0a0a0f"/>
+  
+  <!-- Top red bar -->
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e62429"/>
+      <stop offset="50%" stop-color="#ff1a1a"/>
+      <stop offset="100%" stop-color="#e62429"/>
+    </linearGradient>
+    <linearGradient id="bottomGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#111118"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Top bar -->
+  <rect x="0" y="0" width="800" height="125" fill="url(#topGrad)"/>
+  
+  <!-- Small accent line -->
+  <rect x="0" y="125" width="800" height="3" fill="#ff4444" opacity="0.3"/>
+  
+  <!-- Main title -->
+  <text x="400" y="58" font-family="'Impact', 'Arial Black', Arial, sans-serif" font-size="42" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="12">THREAT HUNTING</text>
+  
+  <!-- Subtitle - Split into two lines -->
+  <text x="400" y="88" font-family="Arial, sans-serif" font-size="17" fill="#ff9999" text-anchor="middle" letter-spacing="5" font-weight="300">AND WINDOWS</text>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="17" fill="#ff9999" text-anchor="middle" letter-spacing="5" font-weight="300">TELEMETRY ANALYSIS</text>
+  
+  <!-- Body -->
+  <rect x="0" y="128" width="800" height="472" fill="url(#bottomGrad)"/>
+  
+  <!-- LEVEL 1 - with subtle shadow -->
+  <text x="402" y="322" font-family="'Impact', 'Arial Black', Arial, sans-serif" font-size="140" font-weight="900" fill="#e62429" text-anchor="middle" letter-spacing="22" opacity="0.15">LEVEL 1</text>
+  <text x="400" y="320" font-family="'Impact', 'Arial Black', Arial, sans-serif" font-size="140" font-weight="900" fill="#e62429" text-anchor="middle" letter-spacing="22">LEVEL 1</text>
+  
+  <!-- Subtitle line -->
+  <text x="400" y="405" font-family="Arial, sans-serif" font-size="20" fill="#6a737d" text-anchor="middle" letter-spacing="5" font-weight="300">FOUNDATION TO ADVANCED</text>
+  
+  <!-- Decorative dots -->
+  <circle cx="200" cy="465" r="5" fill="#e62429" opacity="0.5"/>
+  <circle cx="400" cy="465" r="5" fill="#e62429" opacity="0.5"/>
+  <circle cx="600" cy="465" r="5" fill="#e62429" opacity="0.5"/>
+  
+  <!-- Side lines -->
+  <line x1="80" y1="445" x2="245" y2="445" stroke="#e62429" stroke-width="1.5" opacity="0.2"/>
+  <line x1="555" y1="445" x2="720" y2="445" stroke="#e62429" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Small hexagons -->
+  <polygon points="140,520 152,512 164,520 164,536 152,544 140,536" fill="none" stroke="#e62429" stroke-width="1.5" opacity="0.15"/>
+  <polygon points="636,520 648,512 660,520 660,536 648,544 636,536" fill="none" stroke="#e62429" stroke-width="1.5" opacity="0.15"/>
+  <polygon points="388,520 400,512 412,520 412,536 400,544 388,536" fill="none" stroke="#e62429" stroke-width="1.5" opacity="0.15"/>
+  
+  <!-- Bottom tagline -->
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="13" fill="#30363d" text-anchor="middle" letter-spacing="4">A JOURNEY FROM HIGH TO LOW</text>
+  
+  <!-- Subtle grid -->
+  <line x1="0" y1="180" x2="800" y2="180" stroke="#ffffff" stroke-width="0.5" opacity="0.02"/>
+  <line x1="0" y1="260" x2="800" y2="260" stroke="#ffffff" stroke-width="0.5" opacity="0.02"/>
+  <line x1="0" y1="380" x2="800" y2="380" stroke="#ffffff" stroke-width="0.5" opacity="0.02"/>
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#ffffff" stroke-width="0.5" opacity="0.02"/>
+</svg>
